@@ -1,0 +1,11 @@
+<h2>{{ title }}</h2>
+<div class="card">
+    <div class="card-header">
+        <span class="badge  float-right" [ngClass]="{'badge-soft-success': cryptocurrencies.priceChange>0, 'badge-soft-danger' : 0 > cryptocurrencies.priceChange }"> {{cryptocurrencies.priceChange}}% </span>
+        <h5 class="card-title">Bit Coin(BTC)</h5>
+    </div>
+    <div class="card-body">
+        <h3 class="card-title">{{cryptocurrencies.rate_float | currency:cryptocurrencies.code:'symbol-narrow':'4.2-2'}}</h3>
+        <span >BTC Last Traded Price</span>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+.card-header {
+  background-color: transparent;
+  border-bottom: none;
+}
+.card-header .card-title {
+  font-size: 14px;
+}
+.badge-soft-success {
+  background-color: rgba(75, 191, 115, 0.175);
+  color: #4bbf73;
+}
